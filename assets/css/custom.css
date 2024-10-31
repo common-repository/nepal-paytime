@@ -1,0 +1,41 @@
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_paytime-payment {
+    display: flex;
+    flex-wrap: wrap;
+}
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_paytime-payment>label {
+    display: inline-block;
+    width: calc(100% - 30px);
+}
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_paytime-payment input {
+    margin: 8px 10px 0px 0px;
+}
+.payment_method_paytime-payment img {
+	display: inline-block;
+    width: 32px;
+    height: auto;
+}
+.paytime-redirect-message {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 99999;
+}
+.paytime-redirect-message .message-wrap {
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 9px 0px rgb(0 0 0 / 17%);
+    transform: translateY(50%);
+    display: flex;
+    max-height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: 605px;
+}
